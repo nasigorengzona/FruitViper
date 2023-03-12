@@ -13,6 +13,11 @@
 		AD86CD6829BD63C5002BE9D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD86CD6629BD63C5002BE9D3 /* Main.storyboard */; };
 		AD86CD6A29BD63C7002BE9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD86CD6929BD63C7002BE9D3 /* Assets.xcassets */; };
 		AD86CD6D29BD63C7002BE9D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD86CD6B29BD63C7002BE9D3 /* LaunchScreen.storyboard */; };
+		AD86CD7629BD63DA002BE9D3 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD86CD7529BD63DA002BE9D3 /* View.swift */; };
+		AD86CD7829BD63E4002BE9D3 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD86CD7729BD63E4002BE9D3 /* Interactor.swift */; };
+		AD86CD7A29BD63ED002BE9D3 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD86CD7929BD63ED002BE9D3 /* Presenter.swift */; };
+		AD86CD7C29BD63F7002BE9D3 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD86CD7B29BD63F7002BE9D3 /* Entity.swift */; };
+		AD86CD7E29BD6400002BE9D3 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD86CD7D29BD6400002BE9D3 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		AD86CD6929BD63C7002BE9D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD86CD6C29BD63C7002BE9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD86CD6E29BD63C7002BE9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD86CD7529BD63DA002BE9D3 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		AD86CD7729BD63E4002BE9D3 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		AD86CD7929BD63ED002BE9D3 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		AD86CD7B29BD63F7002BE9D3 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		AD86CD7D29BD6400002BE9D3 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		AD86CD5F29BD63C5002BE9D3 /* FruitViper */ = {
 			isa = PBXGroup;
 			children = (
+				AD86CD7429BD63CD002BE9D3 /* VIPER */,
 				AD86CD6029BD63C5002BE9D3 /* AppDelegate.swift */,
 				AD86CD6229BD63C5002BE9D3 /* SceneDelegate.swift */,
 				AD86CD6429BD63C5002BE9D3 /* ViewController.swift */,
@@ -65,6 +76,18 @@
 				AD86CD6E29BD63C7002BE9D3 /* Info.plist */,
 			);
 			path = FruitViper;
+			sourceTree = "<group>";
+		};
+		AD86CD7429BD63CD002BE9D3 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				AD86CD7529BD63DA002BE9D3 /* View.swift */,
+				AD86CD7729BD63E4002BE9D3 /* Interactor.swift */,
+				AD86CD7929BD63ED002BE9D3 /* Presenter.swift */,
+				AD86CD7B29BD63F7002BE9D3 /* Entity.swift */,
+				AD86CD7D29BD6400002BE9D3 /* Router.swift */,
+			);
+			path = VIPER;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD86CD7E29BD6400002BE9D3 /* Router.swift in Sources */,
+				AD86CD7A29BD63ED002BE9D3 /* Presenter.swift in Sources */,
+				AD86CD7629BD63DA002BE9D3 /* View.swift in Sources */,
+				AD86CD7C29BD63F7002BE9D3 /* Entity.swift in Sources */,
 				AD86CD6529BD63C5002BE9D3 /* ViewController.swift in Sources */,
+				AD86CD7829BD63E4002BE9D3 /* Interactor.swift in Sources */,
 				AD86CD6129BD63C5002BE9D3 /* AppDelegate.swift in Sources */,
 				AD86CD6329BD63C5002BE9D3 /* SceneDelegate.swift in Sources */,
 			);
